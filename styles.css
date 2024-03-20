@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.landingBgImg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/bgImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
