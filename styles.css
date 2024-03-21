@@ -97,6 +97,7 @@ header a:hover {
   font-size: 1.7rem;
   text-align: center;
   margin-bottom: 15%;
+  font-weight: normal;
 }
 
 .landingTitle button {
@@ -132,6 +133,7 @@ header a:hover {
   font-size: 3rem;
   color: #252b42;
   margin-bottom: 5%;
+  font-weight: normal;
 }
 
 .featuresTitle p {
@@ -202,4 +204,126 @@ header a:hover {
   cursor: pointer;
   scale: 1.1;
   color: #0a71d1;
+}
+
+.organize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.organizeText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.organizeText h2 {
+  color: #252b42;
+  font-size: 3rem;
+  max-width: 330px;
+  font-weight: normal;
+}
+
+.organizeText p {
+  color: #374754;
+  font-size: 1.5rem;
+  max-width: 480px;
+}
+
+.organizeText button {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #2091f9;
+  border: none;
+  width: 35%;
+  padding: 0.8rem 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  margin-top: 8%;
+}
+
+.organizeText button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #0a71d1;
+}
+
+.organizeImg img {
+  max-width: 650px;
+}
+
+.prototype {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.prototypeImg {
+  width: 100%;
+  max-width: 850px;
+}
+
+.prototypeImg img {
+  width: 100%;
+  max-width: 850px;
+}
+
+.prototypeText {
+  max-width: 550px;
+  width: 100%;
+}
+
+.firstPrototypeP {
+  color: #252b42;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.prototypeText h2 {
+  color: #252b42;
+  font-size: 3rem;
+  font-weight: normal;
+  max-width: 400px;
+}
+
+.secondPrototypeP {
+  color: #252b42;
+  font-weight: bold;
+}
+
+.thirdPrototypeP {
+  color: #374754;
+}
+
+.prototypeInput input {
+  font-size: 1rem;
+  border: none;
+  color: #18171d;
+  width: 50%;
+  background-color: #e8e8e8;
+  padding: 0.8rem 0;
+  border-radius: 30px;
+  padding-left: 5%;
+  margin-right: 0.5rem;
+}
+
+.prototypeInput button {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #2091f9;
+  border: none;
+  width: 30%;
+  padding: 0.8rem 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  margin-top: 8%;
+}
+
+.prototypeInput button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #0a71d1;
 }
