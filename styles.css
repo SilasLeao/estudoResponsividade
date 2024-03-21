@@ -328,3 +328,23 @@ header a:hover {
   scale: 1.1;
   background-color: #0a71d1;
 }
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners h2 {
+  color: #252b42;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.partners p {
+  color: #374754;
+  font-size: 1.5rem;
+  max-width: 460px;
+  text-align: center;
+}
