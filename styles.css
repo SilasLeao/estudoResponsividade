@@ -12,6 +12,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -19,16 +22,18 @@ header {
   width: 100%;
   justify-content: space-evenly;
   color: #fff;
+  padding-top: 3rem;
 }
 
 header nav {
   display: flex;
   gap: 2rem;
+  margin-right: 10rem;
+  padding-top: 2%;
 }
 
 .headerInfo {
   display: flex;
-  /* margin-left: 3%; */
 }
 
 .headerInfo img {
@@ -40,6 +45,8 @@ header nav {
 
 .landingSocialIcons {
   font-size: 2rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .landingTitle {
@@ -47,22 +54,30 @@ header nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 12%;
+  max-width: 700px;
 }
 
 .landingTitle h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .landingTitle p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 15%;
 }
 
 .landingTitle button {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #2091f9;
   border: none;
+  width: 35%;
+  padding: 0.8rem 0;
+  border-radius: 30px;
 }
 
 .featuresImg img {
