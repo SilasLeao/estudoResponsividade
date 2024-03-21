@@ -348,3 +348,11 @@ header a:hover {
   max-width: 460px;
   text-align: center;
 }
+
+.partnersLogos {
+  display: grid;
+}
+
+.partnersLogos img {
+  max-width: 150px;
+}
