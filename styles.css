@@ -351,8 +351,12 @@ header a:hover {
 
 .partnersLogos {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 }
 
 .partnersLogos img {
   max-width: 150px;
+  padding: 1rem;
+  border: 1px solid #d8d8d8;
 }
