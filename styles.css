@@ -6,25 +6,43 @@
 
 .landingBgImg {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("./assets/bgImg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
 }
 
 header {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   color: #fff;
 }
 
-header img {
-  width: 10%;
+header nav {
+  display: flex;
+  gap: 2rem;
 }
 
-.ladingTitle {
+.headerInfo {
+  display: flex;
+  /* margin-left: 3%; */
+}
+
+.headerInfo img {
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  margin-left: -85px;
+}
+
+.landingSocialIcons {
+  font-size: 2rem;
+}
+
+.landingTitle {
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -32,17 +50,21 @@ header img {
   margin-top: 15%;
 }
 
-.ladingTitle h1 {
+.landingTitle h1 {
   font-size: 4rem;
 }
 
 .landingTitle p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-.ladingTitle button {
+.landingTitle button {
   color: #fff;
   font-size: 2rem;
   background-color: #2091f9;
   border: none;
+}
+
+.featuresImg img {
+  width: 100px;
 }
