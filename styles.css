@@ -80,6 +80,51 @@ header nav {
   border-radius: 30px;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featuresTitle {
+  text-align: center;
+  max-width: 450px;
+}
+
+.featuresTitle h2 {
+  font-size: 3rem;
+  color: #252b42;
+}
+
+.featuresTitle p {
+  font-size: 1.5rem;
+  color: #374754;
+}
+
+.featuresInfo {
+  display: flex;
+}
+
+.featuresInfo .fa-solid {
+  color: #2091f9;
+}
+
+.featuresInfo h3 {
+  color: #252b42;
+}
+
+.featuresInfo p {
+  color: #374754;
+}
+
+.featuresInfo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  text-align: center;
+}
+
 .featuresImg img {
   width: 100px;
 }
