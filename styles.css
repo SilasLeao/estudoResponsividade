@@ -120,6 +120,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5%;
 }
 
 .featuresTitle {
@@ -130,23 +131,29 @@ header a:hover {
 .featuresTitle h2 {
   font-size: 3rem;
   color: #252b42;
+  margin-bottom: 5%;
 }
 
 .featuresTitle p {
   font-size: 1.5rem;
   color: #374754;
+  margin-bottom: 20%;
 }
 
 .featuresInfo {
   display: flex;
+  gap: 3rem;
 }
 
 .featuresInfo .fa-solid {
   color: #2091f9;
+  font-size: 2rem;
+  margin-bottom: 10%;
 }
 
 .featuresInfo h3 {
   color: #252b42;
+  margin-bottom: 10%;
 }
 
 .featuresInfo p {
@@ -157,10 +164,42 @@ header a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 250px;
+  max-width: 200px;
   text-align: center;
 }
 
-.featuresImg img {
-  width: 100px;
+.featuresImgContainer {
+  margin-top: 5%;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.featuresImg {
+  max-height: 650px;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  background-image: url("./assets/videoImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  box-shadow: 0px 0px 50px 10px rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresImg i {
+  color: #2091f9;
+  font-size: 8rem;
+  transition: 0.3s;
+}
+
+.featuresImg i:hover {
+  cursor: pointer;
+  scale: 1.1;
+  color: #0a71d1;
 }
