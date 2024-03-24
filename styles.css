@@ -242,6 +242,7 @@ header a:hover {
   border-radius: 30px;
   transition: 0.3s;
   margin-top: 8%;
+  font-weight: bold;
 }
 
 .organizeText button:hover {
@@ -377,4 +378,23 @@ header a:hover {
 .partnersLogos img {
   max-width: 150px;
   padding-top: 1rem;
+}
+
+.partners button {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #2091f9;
+  border: none;
+  width: 10%;
+  padding: 0.8rem 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.partners button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #0a71d1;
 }
