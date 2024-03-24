@@ -616,5 +616,5 @@ header a:hover {
 .minorCard button:hover {
   cursor: pointer;
   scale: 1.1;
-  opacity: 0.9;
+  background-color: #0a71d1;
 }
