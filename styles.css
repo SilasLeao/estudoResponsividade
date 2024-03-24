@@ -471,3 +471,93 @@ header a:hover {
   scale: 1.1;
   background-color: #0a71d1;
 }
+
+.pricing {
+  background-color: #252b42;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing h2 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+#pricingSubtitle {
+  font-size: 1.5rem;
+  max-width: 480px;
+  text-align: center;
+}
+
+.pricingCards {
+  display: flex;
+}
+
+.majorCard {
+  background-color: #2091f9;
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.majorCard > p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.majorCard .fa-dollar-sign {
+  font-weight: bold;
+}
+
+.majorCard .pricingCardsValue > p {
+  font-weight: bold;
+}
+
+.majorCard button {
+  color: #2091f9;
+  font-size: 1rem;
+  background-color: #fff;
+  border: none;
+  width: 12%;
+  padding: 1rem 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.majorCard button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.pricingCardsValue {
+  display: flex;
+}
+
+.minorCard {
+  background-color: #fff;
+  color: #374754;
+  max-width: 335px;
+}
+
+.minorCard > p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.minorCard h3 {
+  color: #252b42;
+}
+
+.minorCard .fa-dollar-sign {
+  color: #252b42;
+}
+
+.minorCard .pricingCardsValue > p {
+  color: #252b42;
+  font-weight: bold;
+}
