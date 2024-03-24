@@ -478,29 +478,43 @@ header a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5%;
 }
 
 .pricing h2 {
   font-size: 3rem;
   font-weight: normal;
+  margin-top: 4%;
 }
 
 #pricingSubtitle {
   font-size: 1.5rem;
   max-width: 480px;
   text-align: center;
+  margin-top: 1%;
 }
 
 .pricingCards {
   display: flex;
+  margin-top: 4%;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
 }
 
 .majorCard {
   background-color: #2091f9;
-  max-width: 335px;
+  max-width: 300px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.majorCard h3 {
+  margin-top: 4rem;
 }
 
 .majorCard > p {
@@ -514,6 +528,25 @@ header a:hover {
 
 .majorCard .pricingCardsValue > p {
   font-weight: bold;
+  font-size: 4rem;
+}
+
+.pricingCardsValue {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pricingCardsValueText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pricingCardsFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .majorCard button {
@@ -521,27 +554,29 @@ header a:hover {
   font-size: 1rem;
   background-color: #fff;
   border: none;
-  width: 12%;
+  width: 100%;
+  max-width: 220px;
   padding: 1rem 0;
   border-radius: 30px;
   transition: 0.3s;
-  margin-top: 3%;
   font-weight: bold;
+  margin-bottom: 4rem;
 }
 
 .majorCard button:hover {
   cursor: pointer;
   scale: 1.1;
-}
-
-.pricingCardsValue {
-  display: flex;
+  opacity: 0.9;
 }
 
 .minorCard {
   background-color: #fff;
   color: #374754;
-  max-width: 335px;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 30px;
 }
 
 .minorCard > p {
@@ -551,6 +586,7 @@ header a:hover {
 
 .minorCard h3 {
   color: #252b42;
+  margin-top: 2rem;
 }
 
 .minorCard .fa-dollar-sign {
@@ -560,4 +596,25 @@ header a:hover {
 .minorCard .pricingCardsValue > p {
   color: #252b42;
   font-weight: bold;
+  font-size: 4rem;
+}
+
+.minorCard button {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #2091f9;
+  border: none;
+  width: 100%;
+  max-width: 220px;
+  padding: 1rem 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.minorCard button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  opacity: 0.9;
 }
