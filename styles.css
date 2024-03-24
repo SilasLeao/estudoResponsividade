@@ -351,6 +351,7 @@ header a:hover {
 }
 
 .partnersLogos {
+  margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
@@ -413,6 +414,7 @@ header a:hover {
 }
 
 .testimonials img {
+  margin-top: 5%;
   max-width: 150px;
 }
 
@@ -421,12 +423,14 @@ header a:hover {
   font-size: 1.5rem;
   max-width: 800px;
   text-align: center;
+  margin-top: 4%;
 }
 
 .testimonialAvatar {
   display: flex;
   gap: 1rem;
   align-items: center;
+  margin-top: 3%;
 }
 
 .testimonialAvatarText {
@@ -458,7 +462,7 @@ header a:hover {
   padding: 1rem 0;
   border-radius: 30px;
   transition: 0.3s;
-  margin-top: 5%;
+  margin-top: 3%;
   font-weight: bold;
 }
 
