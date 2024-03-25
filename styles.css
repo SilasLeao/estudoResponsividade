@@ -629,3 +629,19 @@ header a:hover {
   scale: 1.1;
   background-color: #0a71d1;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfo {
+  display: flex;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
