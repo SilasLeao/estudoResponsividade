@@ -769,4 +769,22 @@ iframe {
 footer {
   background-color: #252b42;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfo {
+  display: flex;
+  gap: 20%;
+}
+
+.footerPages {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerPages a {
+  color: #fff;
+  text-decoration: none;
 }
