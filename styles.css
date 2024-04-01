@@ -653,6 +653,9 @@ header a:hover {
 
 .contactInfo {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactCard {
@@ -660,9 +663,9 @@ header a:hover {
   height: 100%;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   box-shadow: 2px 4px 8px 1px rgb(0 0 0 / 20%);
-  padding: 5% 8%;
+  padding: 3rem 5rem;
   border: 1px solid #dddddd;
   border-radius: 15px;
 }
@@ -715,6 +718,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  width: 100%;
 }
 
 .contactIcons div {
@@ -725,9 +729,20 @@ textarea {
 .contactIcons div i {
   color: #2091f9;
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .contactIcons div p {
   color: #374754;
   font-size: 90%;
+}
+
+.contactVisual {
+  max-width: 600px;
+  width: 100%;
+}
+
+iframe {
+  max-height: 360px;
+  max-width: 500px;
 }
