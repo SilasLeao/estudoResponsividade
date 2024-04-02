@@ -658,6 +658,7 @@ header a:hover {
   align-items: center;
   gap: 2rem;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .contactCard {
@@ -772,7 +773,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8% 0;
+  padding: 6% 0;
 }
 
 .footerInfo {
