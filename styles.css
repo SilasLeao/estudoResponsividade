@@ -926,22 +926,33 @@ footer {
   .headerInfo {
     width: 100%;
     align-items: center;
+    flex-direction: row-reverse;
   }
   .landingSocialIcons {
     display: none;
   }
-  .one,
-  .two,
-  .three {
+  .one {
     background-color: #fff;
     height: 5px;
     width: 100%;
-    margin: 6px auto;
+  }
+  .two {
+    background-color: #fff;
+    height: 5px;
+    width: 80%;
+  }
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 60%;
   }
   .menuToggle {
     width: 40px;
     height: 30px;
-    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
   }
   .headerInfo img {
     width: 20%;
