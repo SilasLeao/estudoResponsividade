@@ -919,5 +919,34 @@ footer {
   }
 }
 
+@media (max-width: 1000px) {
+  header nav {
+    display: none;
+  }
+  .headerInfo {
+    width: 100%;
+    align-items: center;
+  }
+  .landingSocialIcons {
+    display: none;
+  }
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+  }
+  .menuToggle {
+    width: 40px;
+    height: 30px;
+    margin-left: 10%;
+  }
+  .headerInfo img {
+    width: 20%;
+  }
+}
+
 @media (max-width: 420px) {
 }
