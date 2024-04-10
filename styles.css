@@ -988,5 +988,11 @@ footer {
   }
 }
 
+@media (max-width: 800px) {
+  .organizeText button {
+    width: 50%;
+  }
+}
+
 @media (max-width: 420px) {
 }
