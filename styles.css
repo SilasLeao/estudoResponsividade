@@ -996,6 +996,40 @@ footer {
   .testimonials button {
     width: 25%;
   }
+  .landingTitle h1 {
+    font-size: 4rem;
+  }
+  .landingTitle p {
+    font-size: 1.2rem;
+  }
+  .landingTitle button {
+    font-size: 1.2rem;
+    width: 30%;
+  }
+  .features {
+    font-size: 80%;
+  }
+  .featuresTitle p {
+    font-size: 1rem;
+  }
+  .organizeText p {
+    font-size: 1rem;
+  }
+  .partners p {
+    font-size: 1rem;
+  }
+  .testimonialsSubtitle {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  #pricingSubtitle {
+    font-size: 1rem;
+    max-width: 320px;
+  }
+  .contact > p {
+    max-width: 480px;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1019,6 +1053,64 @@ footer {
   }
   .contactSocialIcons .fa-brands {
     font-size: 2rem;
+  }
+  .landingTitle h1 {
+    font-size: 3rem;
+  }
+  .landingTitle button {
+    font-size: 1rem;
+    width: 25%;
+  }
+  .featuresTitle h2 {
+    font-size: 2rem;
+  }
+  .organizeText h2 {
+    font-size: 2rem;
+  }
+  .prototypeText h2 {
+    font-size: 2rem;
+  }
+  .partners h2 {
+    font-size: 2rem;
+  }
+  .partnersLogos section {
+    width: 90%;
+    height: 90%;
+  }
+  .testimonials h2 {
+    font-size: 2rem;
+  }
+  .testimonials img {
+    max-width: 100px;
+  }
+  .pricing h2 {
+    font-size: 2rem;
+  }
+  .pricingCards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .majorCard,
+  .minorCard {
+    max-width: 250px;
+  }
+  .footerInfo {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .footerInfo h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  .footerPages,
+  .footerTomothy,
+  .footerJane,
+  .footerIcons {
+    align-items: center;
+  }
+  .footerIcons {
+    margin-left: 0;
   }
 }
 
