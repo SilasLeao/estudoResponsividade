@@ -1056,10 +1056,14 @@ footer {
   }
   .landingTitle h1 {
     font-size: 3rem;
+    max-width: 400px;
+  }
+  .landingTitle p {
+    max-width: 400px;
   }
   .landingTitle button {
     font-size: 1rem;
-    width: 25%;
+    width: 35%;
   }
   .featuresTitle h2 {
     font-size: 2rem;
@@ -1143,6 +1147,64 @@ footer {
   .two,
   .three {
     height: 4px;
+  }
+}
+
+@media (max-width: 700px) {
+  .organize {
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .organizeText {
+    align-items: center;
+  }
+  .organizeText button {
+    width: 40%;
+    margin-top: 0;
+  }
+  .organizeImg img {
+    max-width: 400px;
+    margin-bottom: 50%;
+  }
+  .prototype {
+    height: 500px;
+    flex-direction: column-reverse;
+  }
+  .prototypeImg {
+    max-width: 400px;
+    margin-bottom: 40%;
+  }
+  .prototypeText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prototypeInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .prototypeInput input,
+  .prototypeInput button {
+    width: 100%;
+  }
+  .contactIcons {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .contactIcons div {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .featuresImg {
+    max-height: 300px;
+    width: 70%;
+  }
+  .featuresImg i {
+    font-size: 4rem;
   }
 }
 
