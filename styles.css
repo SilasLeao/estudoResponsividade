@@ -920,6 +920,9 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  .landingBgImg {
+    height: 90vh;
+  }
   .featuresImg {
     max-height: 550px;
   }
@@ -985,6 +988,9 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .landingBgImg {
+    height: 80vh;
+  }
   .featuresImg {
     max-height: 450px;
   }
@@ -1155,6 +1161,9 @@ footer {
 }
 
 @media (max-width: 700px) {
+  .landingBgImg {
+    height: 70vh;
+  }
   .organize {
     gap: 0;
     flex-direction: column;
@@ -1203,6 +1212,9 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .landingBgImg {
+    height: 60vh;
+  }
   .featuresImg {
     max-height: 300px;
     width: 70%;
@@ -1245,7 +1257,91 @@ footer {
 }
 
 @media (max-width: 500px) {
+  .landingBgImg {
+    height: 50vh;
+  }
+  .landingTitle h1 {
+    font-size: 2rem;
+    max-width: 400px;
+  }
+  .landingTitle p {
+    font-size: 1rem;
+    max-width: 400px;
+  }
+  .landingTitle button {
+    padding: 0.7rem 0;
+  }
+  .featuresTitle h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .organizeText h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .organizeText button {
+    padding: 0.8rem 0;
+  }
+  .organizeImg img {
+    max-width: 320px;
+    margin-bottom: 50%;
+  }
+  .prototypeText h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .prototypeInput button {
+    padding: 0.8rem 0;
+  }
+  .partners h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .partnersLogos {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+  .partners button {
+    padding: 0.8rem 0;
+  }
+  .testimonials h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .testimonials button {
+    padding: 0.8rem 0;
+  }
+  .pricing h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .contact h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 420px) {
+  .landingTitle h1 {
+    max-width: 320px;
+  }
+  .landingTitle p {
+    max-width: 320px;
+  }
+  .featuresImg {
+    max-height: 200px;
+    width: 70%;
+  }
+  .featuresImgContainer {
+    height: 350px;
+  }
+  .testimonials button {
+    width: 50%;
+  }
+  iframe {
+    max-height: 200px;
+    max-width: 300px;
+  }
+  .contactCard {
+    padding: 2rem 4rem;
+  }
 }
